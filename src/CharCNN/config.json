@@ -1,0 +1,28 @@
+{
+  "device": 0,
+  "epochs": 1000,
+
+  "remove_non_characters": true,
+  "threshold_characters_vocabulary": 1,
+  "threshold_words_vocabulary": 2,
+
+  "character_level_CNN": true,
+  "word_level_CNN": true,
+
+  "learning_rate_decay": 0.999,
+  "initial_lr": 0.001,
+
+  "weight_decay": 0.0000001,
+  "dropout": 0.05,
+  "gaussian_noise": 0.001,
+  "spatial_dropout": 0.007,
+
+  "task_type": "regression",
+  "loss": "huber_loss",
+
+  "total_characters": 500,
+  "select_last_characters": 250,
+  "total_words": 100,
+  "select_last_words": 50
+
+}
